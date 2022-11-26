@@ -20,9 +20,9 @@ spearman.healthStat(300);
 spearman.damageStat(10);
 spearman.speedStat(5);
 
-characters.push(archer.damage);
-characters.push(swordsman.damage);
-characters.push(spearman.damage);
+characters.push(archer.name);
+characters.push(swordsman.name);
+characters.push(spearman.name);
 console.log(characters);
 
 module.exports = Character;

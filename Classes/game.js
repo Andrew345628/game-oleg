@@ -1,8 +1,8 @@
-const Character = require("../Classes/character.js");
+const Character = require("../Game/stats.js");
 playerDamage = 0;
-class Game{
+class Game extends Character{
     start(){
-        playerDamage = this.damage;
+        playerDamage = archer.damageStat;
         console.log(playerDamage);
     }
 }
