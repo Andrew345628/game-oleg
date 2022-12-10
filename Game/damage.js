@@ -1,6 +1,11 @@
-const Games = require("../Classes/game.js");
+const damageAll = require("../Classes/damageAll.js");
+//const choiseCharacter = require("../Classes/choiseCharacter.js");
 
-let start = new Games();
-start.start();
+let damage = new damageAll();
+damage.resultDam();
 
-module.exports = Games;
+let health = new damageAll();
+health.resultHealth();
+
+module.exports = damageAll;
+//module.exports = choiseCharacter;

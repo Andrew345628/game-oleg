@@ -1,4 +1,8 @@
 characters = [];
+charactersDam = [];
+charactersHealth = [];
+bossHealth = [];
+bossDamage = [];
 class Character {
     constructor(name) {
       this.health = 0;

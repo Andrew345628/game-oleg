@@ -23,6 +23,13 @@ spearman.speedStat(5);
 characters.push(archer.name);
 characters.push(swordsman.name);
 characters.push(spearman.name);
-console.log(characters);
+charactersDam.push(archer.damage);
+charactersDam.push(swordsman.damage);
+charactersDam.push(spearman.damage);
+charactersHealth.push(archer.health);
+charactersHealth.push(swordsman.health);
+charactersHealth.push(spearman.health);
+bossHealth.push(oleg.health);
+bossDamage.push(oleg.speed);
 
 module.exports = Character;
